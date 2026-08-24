@@ -1,0 +1,16 @@
+# clk123.sdc
+# Public documentation template for the ASAP7-DTOP / SHA-256 project.
+# Keep the exact original SDC in a private/local environment if it contains
+# project-specific paths or proprietary assumptions.
+
+# Clock confirmed from the supplied timing reports:
+create_clock -name clk123 -period 600 [get_ports clk]
+
+# Add the exact project-specific constraints below from the original run.
+# Do not invent interface delays for a public reproduction.
+#
+# set_input_delay  ...
+# set_output_delay ...
+# set_input_transition ...
+# set_load ...
+# set_driving_cell ...

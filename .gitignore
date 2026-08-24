@@ -1,0 +1,32 @@
+# Cadence / generated files
+*.log
+*.cmd
+*.tmp
+*.enc
+*.enc.dat
+*.oa
+*.db
+*.spef
+*.sdf
+*.gds
+*.def
+
+# Generated working directories
+outputs/
+work/
+logs/
+results/
+
+# Proprietary technology data - do not publish
+*.lef
+*.lib
+*.lib.gz
+*.tf
+*.tch
+*.qrc
+*.ict
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
